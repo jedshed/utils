@@ -6,5 +6,6 @@ from .debug_functions import debug_delay_short
 from .debug_functions import debug_break
 from .debug_functions import debug_write_to_vault
 from .debug_functions import debug_clear_tmp_and_complete_and_log_folders
+from .utils_config import UtilsConfig as utils_conf
 
 #from utils import *

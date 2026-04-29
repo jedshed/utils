@@ -4,15 +4,13 @@ import shutil
 import time
 import sys
 import inspect
-from utils_config import UtilsConfig as conf
-
 
 
 
 #####
 
 def debug_delay_long() -> None:
-    time.sleep(utils_conf.sleep_duration_long)
+    time.sleep(conf.sleep_duration_long)
 
 #####
 
